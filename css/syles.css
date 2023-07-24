@@ -1,0 +1,267 @@
+body {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+}
+
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navyblue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light_slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy_blue_modal: #2e2f42;
+  --grey: #2e2f42;
+  --dairy: #fcfcfc;
+  --white: #ffffff;
+  --logo_font: "Raleway";
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+
+/*---------------HEADER--------------------*/
+
+.header-logo {
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header-logo-part {
+  color: var(--navyblue);
+}
+
+.header-menu-link {
+  color: var(--navyblue);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: var(--ocean);
+  text-decoration-line: underline;
+}
+
+
+.adress-header-section {
+  font-style: normal;
+}
+
+.header-menu-adress {
+  color: var(--slate);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-menu-adress:hover,
+.header-menu-adress:focus {
+  color: var(--ocean);
+}
+
+/*--------------section-1/hero--------------*/
+
+.hero {
+  background-color: var(--navyblue);
+}
+
+.hero-logo {
+  color: var(--white);
+  text-align: center;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.hero-btn {
+  color: var(--white);
+  font-family: inherit;
+  background-color: var(--iris);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  background-color: var(--ocean);
+}
+
+.hero-btn:focus {
+  background-color: var(--ocean);
+}
+
+/*--------------section-2-skills--------------*/
+
+.skills {
+}
+.skills-list {
+}
+.skills-item {
+}
+.skills-subtitle {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.skills-text {
+  color: var(--slate);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*--------------section-3-doing--------------*/
+
+.doing {
+}
+
+.doing-title {
+  color: var(--navyblue);
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.doing-list {
+}
+.doing-item {
+}
+
+/*--------------section-4-team--------------*/
+
+.team {
+  background-color: var(--cloud);
+}
+.team-title {
+  color: var(--navyblue);
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team-list {
+}
+
+.team-item {
+  background-color: var(--white);
+}
+.team-name {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.team-text {
+  color: var(--slate);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*--------------footer--------------*/
+
+.footer {
+  background-color: var(--navyblue);
+}
+.footer-logo {
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-logo-part {
+  color: var(--cloud);
+}
+
+.footer-text {
+  color: var(--cloud);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*!--------------PORTFOLIO--------------*/
+
+/*!---------------HEADER-as-index-------*/
+
+/*!---------------button-list-------*/
+
+
+.button-all {
+  color: var(--iris);
+  background-color: var(--cloud);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.button-all:hover {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
+.button-all:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
+/*!---------------section-2-servicies-------*/
+
+.servicies {
+}
+.servicies-list {
+
+}
+
+.servicies-item {
+}
+.servicies-item-link {
+}
+.link {
+}
+.servicies-title {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.servicies-type {
+  color: var(--slate);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*!---------------FOOTER-as-index-------*/
