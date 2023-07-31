@@ -308,7 +308,7 @@ ul {
 
 .footer {
   background-color: var(--navyblue);
-  padding-top: 101.5px;
+  padding: 100px 0;
 }
 .footer-logo {
   color: var(--iris);
@@ -325,6 +325,8 @@ ul {
 }
 
 .footer-logo-all {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
@@ -332,7 +334,6 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-top: 17.5px;
   max-width: 264px;
   padding-bottom: 100px;
 }
