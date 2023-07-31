@@ -89,7 +89,7 @@ ul {
   align-items: center;
 }
 
-.header-logo {
+.header-logo-white {
   color: var(--iris);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -97,6 +97,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .header-navigation {
@@ -113,7 +114,7 @@ ul {
   padding-top: 1.5px;
   display: flex;
   align-items: center;
-  margin-right: 76px;
+  /*margin-right: 76px;*/
 }
 
 .header-menu-list {
