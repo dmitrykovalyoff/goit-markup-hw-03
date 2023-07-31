@@ -82,13 +82,12 @@ ul {
 /*---------------HEADER--------------------*/
 
 .header {
-  padding-bottom: 24px;
-  padding-top: 24px;
+  padding: 24px 0;
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
   background: var(--white);
 }
 
-.heaer-container {
+.header-container {
   display: flex;
   align-items: center;
 }
