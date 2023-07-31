@@ -164,7 +164,7 @@ ul {
 /*--------------section-1/hero--------------*/
 
 .hero {
-  padding: 188px 472px 292px;
+  padding: 188px 0;
   background-color: var(--navyblue);
 }
 
@@ -192,6 +192,9 @@ ul {
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 .hero-btn:hover,
