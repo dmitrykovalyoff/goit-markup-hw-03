@@ -92,7 +92,7 @@ ul {
   align-items: center;
 }
 
-.header-logo-white {
+.header-logo {
   color: var(--iris);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -100,30 +100,29 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
-}
-
-.header-navigation {
   display: flex;
   align-items: center;
+  margin-right: 76px;
 }
 
 .header-logo-part {
   color: var(--navyblue);
 }
 
-.header-logo-all {
-  padding-bottom: 1.5px;
-  padding-top: 1.5px;
+.header-navigation {
   display: flex;
   align-items: center;
-  /*margin-right: 76px;*/
+  margin-right: auto;
 }
 
 .header-menu-list {
   display: flex;
   gap: 40px;
+  align-items: center;
   margin-right: 332px;
+}
+
+.header-menu-item {
 }
 
 .header-menu-link {
